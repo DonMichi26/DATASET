@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['CAMPANARIO', 'CUPULA', 'PORTADA CENTRAL', 'SIMETRIA COLONIAL', 'TORRES', 'colonial-architecture-']
+
+roboflow:
+  workspace: inves
+  project: ia-xd
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/inves/ia-xd/dataset/3
