@@ -16,8 +16,8 @@ app = gr.Interface(
     fn=detectar,
     inputs=gr.Image(type="filepath", label="Sube una imagen"),
     outputs=gr.Image(type="numpy", label="Resultado"),
-    title="Detección de Iglesias y Más",
-    description="Sube una imagen y el modelo detectará los objetos entrenados."
+    title="Detección de Iglesias",
+    description="Sube una imagen y el modelo detectará las iglesias."
 )
 
 if __name__ == "__main__":
